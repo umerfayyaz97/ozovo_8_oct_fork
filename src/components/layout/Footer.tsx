@@ -21,7 +21,7 @@ const Footer = () => {
             <p>Information: info@ozove.com.au</p>
             <p>Media: Media@ozove.com.au</p>
             <div className="flex space-x-2 mt-2">
-              <Link href="https://www.facebook.com/ozove.australia?mibextid=LQQJ4d">
+              <Link href="https://www.facebook.com/ozove.australia?mibextid=LQQJ4d" target="_blank">
                 <Image
                   src={i1}
                   alt=""
@@ -30,7 +30,7 @@ const Footer = () => {
                   className="gray-y-4"
                 />
               </Link>
-              <Link href="https://www.instagram.com/oz_ove?igsh=MTRyY2d2b2dtNG5sNg==">
+              <Link href="https://www.instagram.com/oz_ove?igsh=MTRyY2d2b2dtNG5sNg=="  target="_blank">
                 <Image
                   src={i2}
                   alt="App Store"
@@ -39,7 +39,7 @@ const Footer = () => {
                   className="gray-y-4"
                 />{" "}
               </Link>
-              <Link href="https://x.com/ozove_australia?s=21&t=DacckBwbP2oi9w-4Uu-LHQ">
+              <Link href="https://x.com/ozove_australia?s=21&t=DacckBwbP2oi9w-4Uu-LHQ" target="_blank">
                 <Image
                   src={i3}
                   alt="App Store"
@@ -48,7 +48,7 @@ const Footer = () => {
                   className="gray-y-4"
                 />{" "}
               </Link>
-              <Link href="https://www.linkedin.com/company/oz-ove/">
+              <Link href="https://www.linkedin.com/company/oz-ove/" target="_blank">
                 <Image
                   src={i4}
                   alt="App Store"
@@ -158,6 +158,24 @@ const Footer = () => {
       <div className="container mx-auto text-center mt-10">
         <p>OZ Ove © 2023 | Journeying Forward, Together.</p>
       </div>
+
+       {/* Google tag (gtag.js) */}
+       <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-YD6PEGDMDR"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YD6PEGDMDR', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+          />
     </footer>
   );
 };

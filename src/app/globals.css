@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.custom-swiper-button {
+  @apply bg-black text-white p-2 cursor-pointer absolute top-1/2 transform -translate-y-1/2 z-10;
+}
+
+.custom-swiper-button-prev {
+  @apply left-4 lg:left-16;
+}
+
+.custom-swiper-button-next {
+  @apply right-4 lg:right-16;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #fbbf24;
+  border-radius: 20px;
+  border: 3px solid #f1f1f1;
+  height: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background-color: #f59e0b;
+}
+
+.scrollbar-custom {
+  padding-right: 10px;
+}
+
+.scrollbar-yellow::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-yellow::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollbar-yellow::-webkit-scrollbar-thumb {
+  background-color: #facc15;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+.scrollbar-yellow {
+  scrollbar-width: thin;
+  scrollbar-color: #facc15 #f1f1f1;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
+.mapboxgl-ctrl-attrib-inner {
+  display: none !important;
+}
+
+/* Hide the native date and time picker icons globally */
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  opacity: 0;
+}
+
+/* For Mozilla Firefox */
+input[type="date"],
+input[type="time"] {
+  -moz-appearance: textfield;
+}
+
+/* For Internet Explorer and Edge Legacy */
+input[type="date"]::-ms-expand,
+input[type="time"]::-ms-expand {
+  display: none;
+}
+
+
+/* Hides the arrows for number input in Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hides the arrows for number input in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

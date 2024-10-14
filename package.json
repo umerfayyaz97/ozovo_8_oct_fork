@@ -1,0 +1,49 @@
+{
+  "name": "ozoveinn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.119.3",
+    "@fluentui/react-icons": "^2.0.249",
+    "@fontsource/dm-sans": "^5.0.21",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.2",
+    "@mapbox/mapbox-sdk": "^0.16.0",
+    "@next/font": "^14.2.5",
+    "@stripe/stripe-js": "^4.5.0",
+    "axios": "^1.7.2",
+    "canvas-confetti": "^1.9.3",
+    "googleapis": "^144.0.0",
+    "lucide-react": "^0.408.0",
+    "mapbox-gl": "^3.5.2",
+    "next": "^14.2.14",
+    "next-sitemap": "^4.2.3",
+    "nodemailer": "^6.9.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "sharp": "^0.33.4",
+    "stripe": "^16.11.0",
+    "swiper": "^11.1.5",
+    "uuid": "^10.0.0",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/mapbox__mapbox-gl-geocoder": "^5.0.0",
+    "@types/mapbox__mapbox-sdk": "^0.15.0",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.15",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

@@ -123,7 +123,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/contact" passHref>
-                  <span className="cursor-pointer">Terms & Conditions and </span>
+                  <span className="cursor-pointer">Terms & Conditions</span>
                 </Link>
               </li>
             </ul>

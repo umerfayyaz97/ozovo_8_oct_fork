@@ -22,7 +22,7 @@ export const sendEmail = async (data) => {
 export const createCheckoutSession = async (data) => {
   const response = await fetch(
     // "https://ro4uadnmtk.execute-api.eu-north-1.amazonaws.com/create-checkout-session",
-    "https://h0572ytzp0.execute-api.ap-southeast-2.amazonaws.com/create-checkout-session",
+    "https://h0572ytzp0.execute-api.ap-southeast-2.amazonaws.com/stripeFunction",
     {
       method: "POST",
       headers: {

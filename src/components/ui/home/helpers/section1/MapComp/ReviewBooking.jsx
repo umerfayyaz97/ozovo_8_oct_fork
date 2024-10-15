@@ -8,8 +8,8 @@ import { loadStripe } from "@stripe/stripe-js";
 import { sendEmail, createCheckoutSession } from "@/lib/api";
 
 const stripePromise = loadStripe(
-  // "pk_live_51Pq6lbP8Zlv0bEA7J4e3frprmo86W0ONlhv3H3HrtIZ5MnwGerQxr3T03zmnEZ7WtjLo0M2SY05tYONQ52GxD4cn00YMXJwFo9"
-  "pk_test_51NiALlAwhifC9JLZo0ZryBt9cuqyGi3WLrcmiftGCpuMygvpjarhLccCFoDpPQwic8G8LAwqRPURSCR8s1izRysB00ssfpjxcC"
+  "pk_live_51Pq6lbP8Zlv0bEA7J4e3frprmo86W0ONlhv3H3HrtIZ5MnwGerQxr3T03zmnEZ7WtjLo0M2SY05tYONQ52GxD4cn00YMXJwFo9"
+  // "pk_test_51NiALlAwhifC9JLZo0ZryBt9cuqyGi3WLrcmiftGCpuMygvpjarhLccCFoDpPQwic8G8LAwqRPURSCR8s1izRysB00ssfpjxcC"
 );
 
 const ReviewBooking = ({ setComponent }) => {

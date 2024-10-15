@@ -1,6 +1,7 @@
 export const sendEmail = async (data) => {
   const response = await fetch(
-    "https://z2y153af9e.execute-api.eu-north-1.amazonaws.com/send-email",
+    // "https://z2y153af9e.execute-api.eu-north-1.amazonaws.com/send-email",
+    "https://fofsxohzoe.execute-api.ap-southeast-2.amazonaws.com",
     {
       method: "POST",
       headers: {
@@ -20,7 +21,8 @@ export const sendEmail = async (data) => {
 
 export const createCheckoutSession = async (data) => {
   const response = await fetch(
-    "https://ro4uadnmtk.execute-api.eu-north-1.amazonaws.com/create-checkout-session",
+    // "https://ro4uadnmtk.execute-api.eu-north-1.amazonaws.com/create-checkout-session",
+    "https://h0572ytzp0.execute-api.ap-southeast-2.amazonaws.com",
     {
       method: "POST",
       headers: {

@@ -23,7 +23,7 @@ export default function Section6() {
           <div className="lg:w-1/3 flex justify-center ">
             <div className="flex flex-col px-4 py-6">
               <Image
-                src={mobileview}
+                src="/home/zify_section6.png"
                 alt="Ride image"
                 width={200}
                 height={200}
@@ -55,7 +55,7 @@ export default function Section6() {
                 Book Your Ride.
               </h3>
             </div>
-            <button className="bg-customYellow hover:bg-customYellow-dark text-white font-bold w-full md:w-[200px] py-2 px-4 rounded-lg self-center md:self-start">
+            <button className="bg-customYellow hover:bg-black text-black hover:text-white font-bold w-full md:w-[200px] py-2 px-4 rounded-lg self-center md:self-start transition-colors duration-300 ease-in-out">
               Book Now
             </button>
           </div>

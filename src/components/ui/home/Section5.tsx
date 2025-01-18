@@ -10,7 +10,7 @@ const Section5 = () => {
   return (
     <div className="flex flex-wrap justify-center items-center bg-white py-10 lg:px-16">
       <div className="flex flex-col lg:w-1/3 w-full lg:py-0 lg:px-0 py-1 px-4">
-        <div className="bg-graish flex flex-row cursor-pointer text-white m-2 p-6 rounded-lg shadow-lg">
+        <div className="bg-zify flex flex-row cursor-pointer text-white m-2 p-6 rounded-lg shadow-lg">
           <div className="lg:pr-8">
             <h3 className="lg:text-2xl text-3xl font-bold mb-4 text-customYellow">
               Affordable & Transparent
@@ -35,7 +35,7 @@ const Section5 = () => {
               <h3 className="lg:text-2xl text-2xl font-bold mb-4 text-black">
                 Tailored To You
               </h3>
-              <p className="lg:text-xs text-base ">
+              <p className="lg:text-xs text-black ">
                 Our services adapt to your requirements and timetable
               </p>
             </div>
@@ -50,7 +50,7 @@ const Section5 = () => {
               />
             </div>
           </div>
-          <div className="bg-graish  cursor-pointer text-white m-2 p-5 rounded-lg shadow-lg lg:h-[200px] flex-grow">
+          <div className="bg-zify  cursor-pointer text-white m-2 p-5 rounded-lg shadow-lg lg:h-[200px] flex-grow">
             <div>
               <h3 className="lg:text-base text-2xl font-bold mb-2 text-customYellow">
                 Integrated Mobility Solutions
@@ -72,16 +72,31 @@ const Section5 = () => {
         </div>
       </div>
 
-      <div className="lg:w-1/3 w-full lg:px-0 px-4 ">
-        <div className="bg-graish cursor-pointer text-white m-2 p-9 rounded-lg shadow-lg flex flex-col justify-center items-center">
+      {/* <div className="lg:w-1/3 w-full lg:px-0 px-4 ">
+        <div className="bg-zify cursor-pointer text-white m-2 p-9 rounded-lg shadow-lg flex flex-col justify-center items-center">
           <Image
-            src={ozove}
+            src="/home/zify_section5.png"
             alt="Integrated Mobility Solutions"
-            className="lg:h-[225px] h-[240px] lg:w-[210px] w-[240px]"
-            width={200}
-            height={200}
+            className="lg:h-[225px] h-[240px] lg:w-[210px] w-[240px]  object-contain"
+            width={302}
+            height={118}
           />
           <h2 className="text-xl mt-8 font-bold">
+            Journeying Forward, Together.
+          </h2>
+        </div>
+      </div> */}
+
+      <div className="lg:w-1/3 w-full lg:px-0 px-4 ">
+        <div className="bg-zify cursor-pointer  text-white m-2 p-9 rounded-lg shadow-lg flex flex-col justify-start items-center">
+          <Image
+            src="/home/zify_section5.png"
+            alt="Integrated Mobility Solutions"
+            className=" lg:h-[225px] h-[240px] lg:w-[210px] w-[240px] object-contain"
+            width={302}
+            height={118}
+          />
+          <h2 className="text-xl -mt-8 mb-16 font-bold">
             Journeying Forward, Together.
           </h2>
         </div>
@@ -94,7 +109,7 @@ const Section5 = () => {
             <h3 className="text-2xl font-bold mb-2 text-black">
               Secure & Safe
             </h3>
-            <p className="lg:text-xs text-base">
+            <p className="lg:text-xs text-black">
               Highly trained and professional drivers catering to a wide range
               of customer needs
             </p>
@@ -108,7 +123,7 @@ const Section5 = () => {
           />
         </div>
 
-        <div className="bg-graish cursor-pointer text-white lg:mx-0 mx-4  p-6 rounded-lg shadow-lg h-[170px] flex justify-between items-center">
+        <div className="bg-zify cursor-pointer text-white lg:mx-0 mx-4  p-6 rounded-lg shadow-lg h-[170px] flex justify-between items-center">
           <div>
             <h3 className="text-2xl font-bold mb-2 text-customYellow">
               Real-Time Tracking

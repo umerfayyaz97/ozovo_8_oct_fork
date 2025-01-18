@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Section2 = () => {
   return (
-    <section className="bg-graish text-white  py-20 lg:px-10 2xl:px-0 flex items-center justify-center">
+    <section className="bg-zify text-white  py-20 lg:px-10 2xl:px-0 flex items-center justify-center">
       <div className=" flex flex-col md:flex-row items-center">
         <div className="w-full flex justify-center lg:px-0 px-6  rounded-lg    mb-8 ">
           <Image
@@ -31,7 +31,7 @@ const Section2 = () => {
             emissions, and connecting communities.
           </p>
           <Link href="/get-started">
-            <p className="inline-block bg-white text-gray-900 font-semibold py-3 px-6 rounded-lg hover:bg-customYellow transition duration-300">
+            <p className="inline-block bg-blue-800 text-white font-semibold py-3 px-6 rounded-lg hover:bg-customYellow hover:text-black transition-colors duration-300 ease-in-out">
               Get Started
             </p>
           </Link>

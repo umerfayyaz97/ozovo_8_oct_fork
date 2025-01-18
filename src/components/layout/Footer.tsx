@@ -10,10 +10,15 @@ import i4 from "@/../public/footer/icons/linkdien.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-graish text-white py-8 lg:pt-40 lg:px-20 px-8">
+    <footer className="bg-zify text-white py-8 lg:pt-40 lg:px-20 px-8">
       <div className="container mx-auto py-8 lg:px- flex flex-col md:flex-row justify-between lg:items-center text-center">
         <div className="flex flex-col md:flex-row ">
-          <Image src={logo} alt="OzOve Logo" width={200} height={200} />
+          <Image
+            src="/footer/zify_footer.png"
+            alt="OzOve Logo"
+            width={200}
+            height={200}
+          />
         </div>
         <div>
           <div className="mt-5 md:mt-0 flex flex-col lg:items-start items-start">
@@ -21,7 +26,10 @@ const Footer = () => {
             <p>Information: info@ozove.com.au</p>
             <p>Media: Media@ozove.com.au</p>
             <div className="flex space-x-2 mt-2">
-              <Link href="https://www.facebook.com/ozove.australia?mibextid=LQQJ4d" target="_blank">
+              <Link
+                href="https://www.facebook.com/ozove.australia?mibextid=LQQJ4d"
+                target="_blank"
+              >
                 <Image
                   src={i1}
                   alt=""
@@ -30,7 +38,10 @@ const Footer = () => {
                   className="gray-y-4"
                 />
               </Link>
-              <Link href="https://www.instagram.com/oz_ove?igsh=MTRyY2d2b2dtNG5sNg=="  target="_blank">
+              <Link
+                href="https://www.instagram.com/oz_ove?igsh=MTRyY2d2b2dtNG5sNg=="
+                target="_blank"
+              >
                 <Image
                   src={i2}
                   alt="App Store"
@@ -39,7 +50,10 @@ const Footer = () => {
                   className="gray-y-4"
                 />{" "}
               </Link>
-              <Link href="https://x.com/ozove_australia?s=21&t=DacckBwbP2oi9w-4Uu-LHQ" target="_blank">
+              <Link
+                href="https://x.com/ozove_australia?s=21&t=DacckBwbP2oi9w-4Uu-LHQ"
+                target="_blank"
+              >
                 <Image
                   src={i3}
                   alt="App Store"
@@ -48,7 +62,10 @@ const Footer = () => {
                   className="gray-y-4"
                 />{" "}
               </Link>
-              <Link href="https://www.linkedin.com/company/oz-ove/" target="_blank">
+              <Link
+                href="https://www.linkedin.com/company/oz-ove/"
+                target="_blank"
+              >
                 <Image
                   src={i4}
                   alt="App Store"
@@ -159,14 +176,14 @@ const Footer = () => {
         <p>OZ Ove © 2023 | Journeying Forward, Together.</p>
       </div>
 
-       {/* Google tag (gtag.js) */}
-       <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-YD6PEGDMDR"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      {/* Google tag (gtag.js) */}
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-YD6PEGDMDR"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
@@ -174,8 +191,8 @@ const Footer = () => {
                 page_path: window.location.pathname,
               });
             `,
-          }}
-          />
+        }}
+      />
     </footer>
   );
 };

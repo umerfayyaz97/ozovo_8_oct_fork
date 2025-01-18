@@ -7,7 +7,7 @@ export default function Section8() {
     <div className="flex flex-col items-center lg:space-x-20 mb-8 lg:flex-row lg:px-40 px-6 lg:justify-evenly lg:h-[500px] bg-white py-8 ">
       {/* Left Section - Image */}
       <div className="lg:flex lg:w-1/2 ">
-        <div className=" overflow-hidden  lg:p-0    rounded-lg ">
+        <div className=" overflow-hidden  lg:p-0  rounded-lg ">
           <Image
             src={driverImage}
             alt="Driver"
@@ -28,8 +28,8 @@ export default function Section8() {
           Embark on a rewarding journey as an Oz Ove driver, and become a part
           of our mission to revolutionize transportation across Australia.{" "}
         </p>
-        <button className="bg-customYellow text-black text-lg font-semibold py-2 px-6 rounded-lg hover:bg-yellow-600 transition duration-300 w-[200px]">
-          Join Now
+        <button className="bg-blue-800 text-white text-lg font-semibold py-2 px-6 rounded-lg hover:bg-yellow-500 hover:text-black transition-colors duration-300 w-[200px]">
+          Become A Driver
         </button>
       </div>
     </div>

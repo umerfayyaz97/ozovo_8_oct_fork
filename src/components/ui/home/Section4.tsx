@@ -14,7 +14,7 @@ const Section4 = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center  px-4 lg:px-0 bg-graish text-white h-[140px]">
+    <div className="flex justify-center items-center  px-4 lg:px-0 bg-zify text-white h-[140px]">
       <h1 className="lg:text-[48px] text-4xl font-bold">
         Book Oz Ove <br className="lg:hidden inline-block" /> For{" "}
         <span className="text-customYellow animate-fade">

@@ -17,7 +17,7 @@ const Section8 = () => {
             <p className="text-base lg:text-xl font-bold text-black pt-2">
               Sign up for pilot launch
             </p>
-            <button className="mt-4 px-4 py-2 bg-black text-white rounded-lg">
+            <button className="mt-4 px-4 py-2 bg-black text-white rounded-lg font-normal hover:bg-white hover:text-black hover:font-bold transition duration-300 ease-in-out">
               SIGN UP
             </button>
           </div>

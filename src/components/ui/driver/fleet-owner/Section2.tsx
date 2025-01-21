@@ -39,7 +39,7 @@ const Section2 = () => {
                 className="mt-2 lg:mt-0"
               />
             </div>
-            <div className="bg-graish flex lg:w-5/12 flex-col lg:flex-row items-center text-customYellow p-6 rounded-lg shadow-lg ">
+            <div className="bg-zify flex lg:w-5/12 flex-col lg:flex-row items-center text-customYellow p-6 rounded-lg shadow-lg ">
               <div className="flex-1 lg:mr-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-4">
                   Management Dashboard
@@ -60,7 +60,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="flex gap-x-2 py-2">
-            <div className="bg-graish lg:w-5/12 flex flex-col lg:flex-row items-center text-customYellow p-6 rounded-lg shadow-lg">
+            <div className="bg-zify lg:w-5/12 flex flex-col lg:flex-row items-center text-customYellow p-6 rounded-lg shadow-lg">
               <div className="flex-1 lg:mr-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-4">
                   Instant Withdrawals

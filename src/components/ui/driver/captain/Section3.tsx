@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Section3 = () => {
   return (
-    <div className="bg-graish text-white lg:h-[540px] lg:px-20 p-8 ">
+    <div className="bg-zify text-white lg:h-[540px] lg:px-20 p-8 ">
       <Head>
         <title>Travel United</title>
       </Head>

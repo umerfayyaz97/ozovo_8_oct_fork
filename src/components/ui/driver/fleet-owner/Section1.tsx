@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Section1 = () => {
   return (
-    <div className="bg-graish text-white lg:mt-20 mt-20 lg:h-[460px] lg:relative">
+    <div className="bg-zify text-white lg:mt-20 mt-20 lg:h-[460px] lg:relative">
       <Head>
         <title>AzOve - Become a Fleet Owner</title>
       </Head>
@@ -22,7 +22,7 @@ const Section1 = () => {
             Built for Fleet owners, Oz Ove Fleet Management empowers you to
             manage drivers and vehicles more efficiently.
           </p>
-          <button className="bg-customYellow text-black font-bold py-2 px-4 rounded">
+          <button className="bg-customYellow text-black font-bold py-2 px-4 rounded hover:bg-black hover:text-white transition duration-300 ease-in-out">
             Deliver Now
           </button>
         </div>
@@ -37,11 +37,13 @@ const Section1 = () => {
           <div className="lg:absolute lg:-top-5 lg:right-40  bg-gray-50 shadow-lg lg:w-96 lg:m-10 my-10 mx-4  rounded-lg z-20">
             <div className="pt-4 ml-10">
               <Image
-                src={p2}
+                src="/driver/captain/section1/zifyblueform.png"
+                width={100}
+                height={100}
                 alt="Ozove"
                 //   layout="fill"
                 //   objectFit="cover"
-                className="h-[30px] w-[120px] lg:block hidden object-fill items-center justify-center ml-20 mb-4"
+                className="h-[30px] w-[100px] lg:block hidden object-fill items-center justify-center ml-20 mb-4"
               />
             </div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4 px-8">

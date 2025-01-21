@@ -8,12 +8,12 @@ import logo6 from "@/../public/ride/business/icons/section4/i6.svg";
 
 const Section4 = () => {
   return (
-    <div className="bg-graish text-white py-12 lg:px-20 px-12">
+    <div className="bg-zify text-white py-12 lg:px-20 px-12">
       <p className="text-center mb-12  font-bold text-2xl">
         Our Corporate Account Advantages
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="bg-cardgray cursor-pointer p-6 text-center shadow-md">
+        <div className="bg-[#313A48] cursor-pointer p-6 text-center shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo1}
@@ -30,7 +30,7 @@ const Section4 = () => {
           </p>
         </div>
 
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo3}
@@ -45,7 +45,7 @@ const Section4 = () => {
             All documentation and all settings are in one personal account.
           </p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo4}
@@ -58,7 +58,7 @@ const Section4 = () => {
           <h3 className="text-xl font-bold mb-2">Add</h3>
           <p className="text-sm">Easily add or remove users.</p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo5}
@@ -71,7 +71,7 @@ const Section4 = () => {
           <h3 className="text-xl font-bold mb-2">No usage fee</h3>
           <p className="text-sm">No extra charges for usage</p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo6}
@@ -86,7 +86,7 @@ const Section4 = () => {
             Every month, the service, automatically sends closing documents.
           </p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo2}

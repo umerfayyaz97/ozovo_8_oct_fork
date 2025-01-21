@@ -92,7 +92,7 @@ const ShowComponent = () => {
           onClick={() => setActiveComponent(1)}
         >
           <Bus className="w-20 h-20" />
-          <span className="text-lg">Oz Van</span>
+          <span className="text-lg">Zify Van</span>
         </button>
         <button
           className={`flex flex-col items-center mb-4 lg:mb-0  w-[200px] ${
@@ -101,7 +101,7 @@ const ShowComponent = () => {
           onClick={() => setActiveComponent(2)}
         >
           <BusFront className="w-20 h-20" />
-          <span className={`text-lg `}>Oz Bus</span>
+          <span className={`text-lg `}>Zify Bus</span>
         </button>
         <button
           className={`flex flex-col items-center w-[200px] ${
@@ -110,7 +110,7 @@ const ShowComponent = () => {
           onClick={() => setActiveComponent(activeComponent)} // Uncommented the onClick handler
         >
           <Crown className="w-20 h-20" />
-          <span className="text-lg">Oz Premium</span>
+          <span className="text-lg">Zify Premium</span>
         </button>
       </div>
       <div>{renderComponent()}</div>

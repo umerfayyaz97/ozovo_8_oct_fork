@@ -59,13 +59,13 @@ const Section3: React.FC = () => {
     <div className="flex justify-center items-center">
       <form
         onSubmit={handleSubmit}
-        className="bg-graish justify-center items-center lg:px-60 text-center p-8 w-full space-y-4"
+        className="bg-zify justify-center items-center lg:px-60 text-center p-8 w-full space-y-4"
       >
         <h2 className="text-yellow-500 text-2xl font-bold mb-2">Contact</h2>
         <p className="text-white mb-4">Let Us Know How We Can Help</p>
         <div className="grid lg:grid-cols-2 gap-4">
           <input
-            className="p-2 border border-gray-200 bg-graish text-gray-200 rounded"
+            className="p-2 border border-gray-600 bg-[#313A48] text-[#A6A6A6] rounded"
             type="text"
             name="firstName"
             placeholder="First Name*"
@@ -74,7 +74,7 @@ const Section3: React.FC = () => {
             required
           />
           <input
-            className="p-2 border border-gray-200 bg-graish text-gray-200 rounded"
+            className="p-2 border border-gray-600 bg-[#313A48] text-[#A6A6A6] rounded"
             type="text"
             name="lastName"
             placeholder="Last Name*"
@@ -84,7 +84,7 @@ const Section3: React.FC = () => {
           />
         </div>
         <input
-          className="p-2 border border-gray-200 bg-graish text-gray-200 rounded w-full"
+          className="p-2 border border-gray-600 bg-[#313A48] text-[#A6A6A6] rounded w-full"
           type="email"
           name="email"
           placeholder="Email*"
@@ -93,7 +93,7 @@ const Section3: React.FC = () => {
           required
         />
         <input
-          className="p-2 border border-gray-200 bg-graish text-gray-200 rounded w-full"
+          className="p-2 border border-gray-600 bg-[#313A48] text-[#A6A6A6] rounded w-full"
           type="text"
           name="phone"
           placeholder="Phone"
@@ -101,7 +101,7 @@ const Section3: React.FC = () => {
           onChange={handleChange}
         />
         <input
-          className="p-2 border border-gray-200 bg-graish text-gray-200 rounded w-full"
+          className="p-2 border border-gray-600 bg-[#313A48] text-[#A6A6A6] rounded w-full"
           type="text"
           name="subject"
           placeholder="Organization/Business/Subject"
@@ -109,7 +109,7 @@ const Section3: React.FC = () => {
           onChange={handleChange}
         />
         <textarea
-          className="p-2 border border-gray-200 bg-graish text-gray-200 rounded w-full"
+          className="p-2 border border-gray-600 bg-[#313A48] text-[#A6A6A6] rounded w-full"
           name="message"
           placeholder="Message"
           value={formData.message}
@@ -118,7 +118,7 @@ const Section3: React.FC = () => {
           required
         />
         <button
-          className="bg-customYellow  text-gray-900 py-2 px-4 rounded  w-[300px]"
+          className="bg-customYellow font-bold text-gray-900 py-2 px-4 rounded w-[300px] hover:bg-white hover:text-black  transition duration-300 ease-in-out"
           type="submit"
         >
           Send Message

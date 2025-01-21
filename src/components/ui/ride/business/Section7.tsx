@@ -5,7 +5,7 @@ import i1 from "@/../public/ride/individual/section7.png";
 
 function Section7() {
   return (
-    <div className="bg-graish lg:pb-10">
+    <div className="bg-zify lg:pb-10">
       <div className="lg:p-20 p-10 flex flex-col lg:flex-row ">
         <div className="lg:w-1/3 flex-shrink-0">
           <Image

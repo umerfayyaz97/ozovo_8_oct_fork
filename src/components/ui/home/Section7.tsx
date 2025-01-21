@@ -26,8 +26,8 @@ export default function Section7() {
           adapt to your business needs, ensuring a convenient and hassle-free
           journey!
         </p>
-        <button className="bg-customYellow text-black text-lg font-semibold py-2 px-6 rounded-lg hover:bg-customYellow transition duration-300">
-          Learn more
+        <button className="bg-white text-black text-lg font-semibold py-2 px-6 rounded-lg hover:bg-customYellow transition duration-300 ease-in-out">
+          Book Now
         </button>
       </div>
     </div>

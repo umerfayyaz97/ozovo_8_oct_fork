@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Section1 = () => {
   return (
-    <div className="bg-graish text-white lg:h-[400px] lg:mt-20 mt-10">
+    <div className="bg-zify text-white lg:h-[400px] lg:mt-20 mt-10">
       <Head>
         <title>Travel United</title>
       </Head>
@@ -21,7 +21,7 @@ const Section1 = () => {
           <p className="text-lg mb-8">
             Customized Group Rides For Every Occasion
           </p>
-          <button className="bg-white hover:bg-customYellow text-black font-bold py-2 px-4 rounded-xl">
+          <button className="bg-white hover:bg-customYellow text-black font-bold py-2 px-4 rounded-xl transition-colors duration-300 ease-in-out">
             Book Now
           </button>
         </div>

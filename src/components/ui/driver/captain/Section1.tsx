@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Section1 = () => {
   return (
-    <div className="bg-graish text-white lg:mt-20 mt-16 lg:h-[440px] lg:relative">
+    <div className="bg-zify text-white lg:mt-20 mt-16 lg:h-[440px] lg:relative">
       <Head>
         <title>AzOve - Become a Driver</title>
       </Head>
@@ -35,9 +35,11 @@ const Section1 = () => {
             <div className="lg:absolute lg:-top-5 lg:right-40  bg-gray-50 shadow-lg lg:w-96 lg:m-10 my-10 mx-4  rounded-lg z-20">
               <div className="pt-4 lg:ml-10">
                 <Image
-                  src={p2}
+                  src="/driver/captain/section1/zifyblueform.png"
                   alt="Ozove"
-                  className="h-[30px] w-[120px] lg:block hidden object-fill items-center justify-center ml-20 mb-4"
+                  width={100}
+                  height={100}
+                  className="h-[30px] w-[100px] lg:block hidden object-fill items-center justify-center ml-20 mb-4"
                 />
               </div>
               <h2 className="text-2xl px-8 p  b-2 font-bold text-black">
@@ -116,7 +118,7 @@ const Section1 = () => {
                 </div>
                 <div className="flex items-center justify-between">
                   <button
-                    className="bg-customYellow hover:bg-yellow-700 text-white font-bold py-2 px-4 w-full rounded rounded-t-none focus:outline-none focus:shadow-outline"
+                    className="bg-customYellow hover:bg-yellow-700 text-black font-bold py-2 px-4 w-full rounded rounded-t-none focus:outline-none focus:shadow-outline"
                     type="button"
                   >
                     Get Started as a Driver

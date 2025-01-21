@@ -4,7 +4,7 @@ import React from "react";
 
 const Section8 = () => {
   return (
-    <div className="lg:h-40 lg:-mb-32 lg:bg-graish lg:w-full">
+    <div className="lg:h-40 lg:-mb-32 lg:bg-zify lg:w-full">
       <div className="flex justify-center items-center ">
         <div className="lg:absolute bg-gradient-to-bl lg:mt-28 from-qrs to-qrb lg:w-[800px] p-6 lg:rounded-md shadow-md flex justify-between items-center">
           <div>
@@ -17,7 +17,7 @@ const Section8 = () => {
             <p className="text-base lg:text-xl font-bold text-black pt-2">
               Sign up for pilot launch
             </p>
-            <button className="mt-4 px-4 py-2 bg-black text-white rounded-lg">
+            <button className="mt-4 font-bold px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-white hover:text-gray-700 transition-colors duration-300 ease-in-out">
               SIGN UP
             </button>
           </div>

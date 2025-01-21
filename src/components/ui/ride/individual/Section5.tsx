@@ -29,7 +29,7 @@ export default function Section6() {
           <div className="lg:w-1/3 flex justify-center">
             <div className="flex flex-col px-4 py-6">
               <Image
-                src={mobileview}
+                src="/ride/individual/zify_indi_sec5.png"
                 alt="Ride image"
                 width={200}
                 height={200}
@@ -39,7 +39,7 @@ export default function Section6() {
           <div className="lg:w-2/3 flex flex-col justify-center space-y-8 px-4">
             <div className="flex items-center space-x-4">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">1</h2>
+                <h2 className="text-2xl font-bold text-black">1</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 Set Destination Route
@@ -47,7 +47,7 @@ export default function Section6() {
             </div>
             <div className="flex items-center space-x-4">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">2</h2>
+                <h2 className="text-2xl font-bold text-black">2</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 Choose service
@@ -55,7 +55,7 @@ export default function Section6() {
             </div>
             <div className="flex items-center space-x-4">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">3</h2>
+                <h2 className="text-2xl font-bold text-black">3</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 Select Vehicle Type
@@ -64,7 +64,7 @@ export default function Section6() {
 
             <div className="flex items-center space-x-4">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">4</h2>
+                <h2 className="text-2xl font-bold text-black">4</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 Personalise Add-Ons
@@ -72,7 +72,7 @@ export default function Section6() {
             </div>
             <div className="flex items-center space-x-4">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">5</h2>
+                <h2 className="text-2xl font-bold text-black">5</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 Confirm
@@ -80,13 +80,13 @@ export default function Section6() {
             </div>
             <div className="flex items-center space-x-4">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">6</h2>
+                <h2 className="text-2xl font-bold text-black">6</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 Track Driver in Real Time
               </h3>
             </div>
-            <button className="bg-customYellow hover:bg-customYellow-dark text-white font-bold w-full md:w-[200px] py-2 px-4 rounded-full self-center md:self-start">
+            <button className="bg-customYellow text-black font-bold w-full md:w-[200px] py-2 px-4 rounded-full self-center md:self-start hover:bg-blue-800 hover:text-white transition-colors duration-300 ease-in-out">
               Book Now
             </button>
           </div>

@@ -53,7 +53,7 @@ const SmallBus = () => (
   <div>
     <div className="flex lg:flex-row flex-col-reverse ">
       <div>
-        <h1 className="text-3xl font-bold px-4">Oz Mini Bus</h1>
+        <h1 className="text-3xl font-bold px-4">Zify Mini Bus</h1>
         <p className="p-4">
           Compact yet comfortable, our Mini Buses are perfect for smaller
           groups. Enjoy a relaxed journey with us, no matter your destination.
@@ -105,7 +105,7 @@ const MediumBus = () => (
       <div>
         <h1 className="text-3xl font-bold px-4">Medium Bus</h1>
         <p className="p-4">
-          VOz Midi Bus - Striking a perfect balance between capacity and
+          VZify Midi Bus - Striking a perfect balance between capacity and
           comfort, our Midi Buses cater to larger groups, ensuring everyone
           arrives together and on time.
         </p>
@@ -154,7 +154,7 @@ const LargeBus = () => (
   <div>
     <div className="flex lg:flex-row flex-col-reverse ">
       <div>
-        <h1 className="text-3xl font-bold px-4">Oz Maxi Bus</h1>
+        <h1 className="text-3xl font-bold px-4">Zify Maxi Bus</h1>
         <p className="p-4">
           {` Designed for big groups, our Maxi Buses offer ample space, ensuring
           everyone's comfort on the go. Ideal for corporate events, large
@@ -207,7 +207,7 @@ const PartyBus = () => (
       <div>
         <h1 className="text-3xl font-bold px-4">Party Bus</h1>
         <p className="p-4">
-          {`Oz Fiesta Bus - Turn up the fun with our Fiesta Buses. Decked out with
+          {`Zify Fiesta Bus - Turn up the fun with our Fiesta Buses. Decked out with
           a sound system and party lights, these buses bring the party to you,
           no matter where you're headed.`}
         </p>

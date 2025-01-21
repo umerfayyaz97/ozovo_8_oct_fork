@@ -19,7 +19,7 @@ export default function Section6() {
         <div className="flex items-center justify-center gap-12">
           <div className="flex flex-col items-center justify-center">
             <Image
-              src={i1}
+              src="/ride/business/zify_bus_sec6.png"
               alt={""}
               width={400}
               height={400}
@@ -29,7 +29,7 @@ export default function Section6() {
           </div>
           <div className="flex flex-col items-center justify-center lg:mt-12">
             <Image
-              src={i2}
+              src="/ride/business/zify_van_sec6.png"
               alt={""}
               width={400}
               height={400}

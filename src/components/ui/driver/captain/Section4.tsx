@@ -27,7 +27,7 @@ export default function Section4() {
           <div className="lg:w-2/3 flex flex-col justify-center space-y-8 px-4">
             <div className="flex items-center space-x-4">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">1</h2>
+                <h2 className="text-2xl font-bold text-black">1</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 View all available orders.
@@ -35,7 +35,7 @@ export default function Section4() {
             </div>
             <div className="flex items-center space-x-2">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">2</h2>
+                <h2 className="text-2xl font-bold text-black">2</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 Select your order you wish to pick up.{" "}
@@ -43,15 +43,15 @@ export default function Section4() {
             </div>
             <div className="flex items-center space-x-4">
               <div className="bg-customYellow w-12 h-12 rounded-full flex items-center justify-center">
-                <h2 className="text-2xl font-bold text-white">3</h2>
+                <h2 className="text-2xl font-bold text-black">3</h2>
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-gray-900">
                 Check your earnings at anytime.
               </h3>
             </div>
 
-            <button className="bg-customYellow hover:bg-customYellow-dark text-white font-bold w-full md:w-[200px] py-2 px-4 rounded-full self-center md:self-start">
-              Book Now
+            <button className="bg-customYellow hover:bg-customYellow-dark text-black font-bold w-full md:w-[200px] py-2 px-4 rounded-full self-center md:self-start">
+              Download App
             </button>
           </div>
         </div>

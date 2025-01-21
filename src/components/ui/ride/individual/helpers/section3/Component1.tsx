@@ -48,7 +48,7 @@ const StandardVan = () => (
   <div>
     <div className="flex lg:flex-row flex-col-reverse ">
       <div>
-        <h1 className="text-3xl font-bold px-4">Oz Standard Van</h1>
+        <h1 className="text-3xl font-bold px-4">Zify Standard Van</h1>
         <p className="p-4">
           Roomy and comfortable, our standard vans offer seating for up to 10
           passengers.

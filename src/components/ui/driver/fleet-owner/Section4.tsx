@@ -34,7 +34,7 @@ export default function Section4() {
             {steps.map((step, index) => (
               <div key={index} className="flex items-center space-x-4">
                 <div className="bg-customYellow w-10 h-10 rounded-full flex items-center justify-center">
-                  <span className="text-xl font-bold text-white">
+                  <span className="text-xl font-bold text-black">
                     {index + 1}
                   </span>
                 </div>

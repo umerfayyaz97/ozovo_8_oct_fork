@@ -8,7 +8,7 @@ import logo6 from "@/../public/ride/individual/icons/section4/p6.png";
 
 const Section4 = () => {
   return (
-    <div className="bg-graish text-white py-12 lg:px-20 px-8">
+    <div className="bg-zify text-white py-12 lg:px-20 px-8">
       <h2 className="text-3xl font-bold text-center text-yellow-500 mb-4">
         Add-Ons
       </h2>
@@ -17,7 +17,7 @@ const Section4 = () => {
         Beyond. Expect The Extraordinary.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="bg-cardgray cursor-pointer p-6 text-center shadow-md">
+        <div className="bg-[#313A48] cursor-pointer p-6 text-center shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo1}
@@ -33,7 +33,7 @@ const Section4 = () => {
             single booking to accommodate everyone in your group comfortably.
           </p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo2}
@@ -50,7 +50,7 @@ const Section4 = () => {
             among your group instantly.
           </p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo3}
@@ -67,7 +67,7 @@ const Section4 = () => {
             disabilities, ensuring a smooth and comfortable ride.
           </p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo4}
@@ -84,7 +84,7 @@ const Section4 = () => {
             to your destination.
           </p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo5}
@@ -101,7 +101,7 @@ const Section4 = () => {
             items will be safely stowed away.
           </p>
         </div>
-        <div className="bg-cardgray cursor-pointer text-center p-6  shadow-md">
+        <div className="bg-[#313A48] cursor-pointer text-center p-6  shadow-md">
           <div className="flex items-center justify-center mb-4">
             <Image
               src={logo6}

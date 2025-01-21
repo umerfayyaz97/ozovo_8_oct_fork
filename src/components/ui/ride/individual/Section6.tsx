@@ -66,7 +66,7 @@ const Section6: React.FC = () => {
                   <p className="text-sm text-gray-600">{event.time}</p>
                   <p className="text-sm text-gray-600">{event.location}</p>
                 </div>
-                <button className="mt-4 bg-customYellow text-white py-2 px-4 rounded hover:bg-yellow-600">
+                <button className="mt-4 font-bold bg-customYellow text-black py-2 px-4 rounded hover:bg-black hover:text-white transition-colors duration-300 ease-in-out">
                   Book Now
                 </button>
               </div>

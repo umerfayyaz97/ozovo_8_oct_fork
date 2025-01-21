@@ -4,7 +4,7 @@ import React from "react";
 
 const Section8 = () => {
   return (
-    <div className="lg:h-40 lg:-mb-32 lg:bg-graish lg:w-full">
+    <div className="lg:h-40 lg:-mb-32 lg:bg-zify lg:w-full">
       <div className="flex justify-center items-center ">
         <div className="lg:absolute bg-gradient-to-bl lg:mt-28 from-qrs to-qrb lg:w-[800px] p-6 lg:rounded-md shadow-md flex justify-between items-center">
           <div>

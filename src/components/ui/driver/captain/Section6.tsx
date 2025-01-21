@@ -15,7 +15,7 @@ const Section6 = () => {
         <h1 className="text-white text-4xl md:text-6xl font-bold mb-8">
           Ready To Drive With Us?
         </h1>
-        <button className="bg-customYellow text-black py-2 px-4 rounded-lg font-bold hover:bg-yellow-600">
+        <button className="bg-customYellow text-black py-2 px-4 rounded-lg font-bold hover:bg-black hover:text-white transition duration-300 ease-in-out">
           Sign Up Now
         </button>
       </div>

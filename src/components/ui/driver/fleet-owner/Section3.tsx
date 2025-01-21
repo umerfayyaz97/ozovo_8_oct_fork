@@ -32,7 +32,7 @@ const benefits = [
 
 export default function FleetBenefits() {
   return (
-    <div className="bg-graish p-10">
+    <div className="bg-zify p-10">
       <h2 className="text-3xl font-bold text-white mb-6 text-start">
         Exclusive <span className="text-yellow-400">Fleet Benefits</span>
       </h2>

@@ -13,10 +13,10 @@ const Section2 = () => {
             What we <span className="text-white">offer</span>
           </h3>
           <p>
-            Empower your fleet operations with OZ Ove’s advanced Fleet
-            Management Dashboard. Our platform provides robust infrastructure,
-            technology and access to a comprehensive driver network, designed to
-            optimize your business efficiency and profitability.
+            Empower your fleet operations with Zify’s advanced Fleet Management
+            Dashboard. Our platform provides robust infrastructure, technology
+            and access to a comprehensive driver network, designed to optimize
+            your business efficiency and profitability.
           </p>
         </div>
         <div className=" justify-center ">
@@ -84,8 +84,8 @@ const Section2 = () => {
                   Driver Network
                 </h3>
                 <p className="text-sm">
-                  Empower your fleet operations with OZ Ove&apos;s advanced
-                  Fleet Management Dashboard. Our platform provides robust
+                  Empower your fleet operations with Zify&apos;s advanced Fleet
+                  Management Dashboard. Our platform provides robust
                   infrastructure,
                   <span className="lg:block hidden">
                     technology and access to a comprehensive driver network,

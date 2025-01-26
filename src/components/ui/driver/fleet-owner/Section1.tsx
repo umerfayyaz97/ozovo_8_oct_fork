@@ -19,8 +19,8 @@ const Section1 = () => {
             {`FLEET'S`} <span className="text-customYellow">POTENTIAL</span>
           </h1>
           <p className="text-base mb-8">
-            Built for Fleet owners, Oz Ove Fleet Management empowers you to
-            manage drivers and vehicles more efficiently.
+            Built for Fleet owners, Zify Fleet Management empowers you to manage
+            drivers and vehicles more efficiently.
           </p>
           <button className="bg-customYellow text-black font-bold py-2 px-4 rounded hover:bg-black hover:text-white transition duration-300 ease-in-out">
             Deliver Now
@@ -43,7 +43,7 @@ const Section1 = () => {
                 alt="Ozove"
                 //   layout="fill"
                 //   objectFit="cover"
-                className="h-[30px] w-[100px] lg:block hidden object-fill items-center justify-center ml-20 mb-4"
+                className="h-[30px] w-[90px] lg:block hidden object-fill items-center justify-center ml-20 mb-4"
               />
             </div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4 px-8">

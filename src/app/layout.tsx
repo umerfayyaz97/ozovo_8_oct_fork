@@ -6,7 +6,7 @@ import "@fontsource/dm-sans"; // Defaults to weight 400
 import "@fontsource/dm-sans/400.css"; // Specify weight
 import "@fontsource/dm-sans/400-italic.css"; // Specify weight and style
 export const metadata: Metadata = {
-  title: "Oz Ove",
+  title: "Zify",
   description: "Reinventing Group Travel In Australia",
 };
 

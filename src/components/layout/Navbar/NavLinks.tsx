@@ -50,7 +50,7 @@ const NavLinks = ({ setOpen }: any) => {
               <div>
                 <div className="absolute -mt-6 font-semibold z-50 hidden group-hover:md:block hover:md:block">
                   <div className="py-3">
-                    <div className=" text-white bg-graish py-1 gap-10 rounded-lg shadow-2xl">
+                    <div className=" text-white bg-zify py-1 gap-10 rounded-lg shadow-2xl">
                       {link.sublinks.map((mysublinks, index) => (
                         <div key={index}>
                           {mysublinks.sublink.map((slink) => (

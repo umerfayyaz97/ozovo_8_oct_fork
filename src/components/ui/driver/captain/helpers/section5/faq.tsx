@@ -8,19 +8,19 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "How do i sign up to be a Driver Partner with OZ Ove?",
+    question: "How do i sign up to be a Driver Partner with Zify?",
     answer:
-      "Simply download the OZ Ove Driver Partner app and follow the step-by-step guide to sign up. You'll need to provide your personal details, a valid driver's license, proof of insurance, and your bank account details for payouts.",
+      "Simply download the Zify Driver Partner app and follow the step-by-step guide to sign up. You'll need to provide your personal details, a valid driver's license, proof of insurance, and your bank account details for payouts.",
   },
   {
-    question: "What are th benefits of the Oz Ove Sticker Program ?",
+    question: "What are th benefits of the Zify Sticker Program ?",
     answer:
-      "With the OZ Ove Sticker Program, your vehicle is prioritized for orders over other vehicles. This increases your chance of getting more orders, thus maximizing your income. Plus, showcasing the OZ Ove brand on your vehicle also earns you passive income!",
+      "With the Zify Sticker Program, your vehicle is prioritized for orders over other vehicles. This increases your chance of getting more orders, thus maximizing your income. Plus, showcasing the Zify brand on your vehicle also earns you passive income!",
   },
   {
     question: "How does the payment system works?",
     answer:
-      "With the OZ Ove Sticker Program, your vehicle is prioritized for orders over other vehicles. This increases your chance of getting more orders, thus maximizing your income. Plus, showcasing the OZ Ove brand on your vehicle also earns you passive income!",
+      "With the Zify Sticker Program, your vehicle is prioritized for orders over other vehicles. This increases your chance of getting more orders, thus maximizing your income. Plus, showcasing the Zify brand on your vehicle also earns you passive income!",
   },
 ];
 
@@ -40,7 +40,7 @@ const FAQ = () => {
         {faqData.map((item, index) => (
           <div
             key={index}
-            className="lg:border lg:rounded-lg p-4 lg:bg-white bg-faq lg:text-black text-white"
+            className="lg:border lg:rounded-lg p-4 lg:bg-white bg-zify lg:text-black text-white"
           >
             <button
               className="w-full text-left focus:outline-none"

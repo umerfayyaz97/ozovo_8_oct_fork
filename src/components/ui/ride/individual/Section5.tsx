@@ -20,7 +20,7 @@ export default function Section6() {
             How it works
           </h1>
           <p>
-            Experience the Revolution of Oz Ove&apos;s Unparalleled On-Demand
+            Experience the Revolution of Zify&apos;s Unparalleled On-Demand
             Group Transportation
           </p>
         </div>

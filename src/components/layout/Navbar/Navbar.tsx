@@ -60,7 +60,7 @@ const Navbar = () => {
         </ul>
         <div className="md:block hidden">{/* <Button /> */}</div>
         <ul
-          className={`md:hidden bg-graish text-white font-semibold z-20 fixed w-full top-0 bottom-0 py-24 pl-4 duration-500 ${
+          className={`md:hidden bg-zify text-white font-semibold z-20 fixed w-full top-0 bottom-0 py-24 pl-4 duration-500 ${
             open ? "left-0" : "left-[-100%]"
           }`}
         >

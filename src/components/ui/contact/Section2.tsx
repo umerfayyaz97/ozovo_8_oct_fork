@@ -26,8 +26,8 @@ const contactInfoData: ContactInfoItem[] = [
     icon: p2,
     title: "Contact Us",
     description: "Need help or want to leave feedback?",
-    link: "mailto:info@ozove.com.au",
-    linkText: "info@ozove.com.au",
+    link: "mailto:info@zify.com.au",
+    linkText: "info@zify.com.au",
   },
   {
     icon: p3,

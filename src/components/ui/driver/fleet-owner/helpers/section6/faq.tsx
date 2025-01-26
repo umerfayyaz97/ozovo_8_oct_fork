@@ -8,27 +8,27 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What is the Oz Ove Fleet Management service ?",
+    question: "What is the Zify Fleet Management service ?",
     answer:
       "Our Fleet Management service is a comprehensive solution designed to streamline operations for Mobility Service Providers. It includes features like scheduling, route planning, driver and vehicle management, and real-time tracking, making it easier to manage your fleet efficiently.",
   },
   {
-    question: "What can Oz Ove Fleet Management service benefit my business?",
+    question: "What can Zify Fleet Management service benefit my business?",
     answer:
       "Our service allows you to optimize your operations by assigning drivers and vehicles efficiently, planning the best routes, and monitoring delivery in real-time. This helps reduce operational costs, improves productivity, and ultimately boosts your bottom line.",
   },
   {
     question:
-      "I'm a fleet owner. Can i still use OZ Ove Fleet Management service ?",
+      "I'm a fleet owner. Can i still use Zify Fleet Management service ?",
     answer:
-      "Absolutely! OZ Ove's Fleet Management service is scalable and designed to accommodate fleets of all sizes. Whether you have 3 vehicles or 300, we can help streamline your operations and increase efficiency.",
+      "Absolutely! Zify's Fleet Management service is scalable and designed to accommodate fleets of all sizes. Whether you have 3 vehicles or 300, we can help streamline your operations and increase efficiency.",
   },
   {
     question:
-      "How does the Oz Ove platform ensure the safety of my fleet and my drivers?",
+      "How does the Zify platform ensure the safety of my fleet and my drivers?",
 
     answer:
-      "Safety is a   top priority at OZ Ove. Our platform includes features like real-time tracking and emergency response, which help ensure the safety of your drivers on the road. Additionally, we offer insurance plans for added protection.",
+      "Safety is a   top priority at Zify. Our platform includes features like real-time tracking and emergency response, which help ensure the safety of your drivers on the road. Additionally, we offer insurance plans for added protection.",
   },
 ];
 
@@ -48,7 +48,7 @@ const FAQ = () => {
         {faqData.map((item, index) => (
           <div
             key={index}
-            className="lg:border lg:rounded-lg p-4 lg:bg-white bg-faq lg:text-black text-white"
+            className="lg:border lg:rounded-lg p-4 lg:bg-white bg-zify lg:text-black text-white"
           >
             <button
               className="w-full text-left focus:outline-none"

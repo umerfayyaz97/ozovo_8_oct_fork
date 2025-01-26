@@ -17,10 +17,10 @@ const Section2 = () => {
             </h3>
           </div>
           <div className="lg:hidden flex ">
-            <div className="bg-white   text-black p-4 shadow-md h-[240px] lg:hidden flex flex-col">
+            <div className="bg-white text-black p-4 shadow-md h-[240px] lg:hidden flex flex-col">
               <div className="lg:flex items-center mb-2">
                 <Image
-                  src="/ride/business/zify_business_section2.png"
+                  src="/ride/business/one-stop-bill.png"
                   alt=""
                   width={40}
                   height={40}
@@ -31,7 +31,7 @@ const Section2 = () => {
                 </h3>
               </div>
               <p>
-                Streamline expenses with Oz Ove’s Business account for easy
+                Streamline expenses with Zify’s Business account for easy
                 management.
               </p>
             </div>
@@ -69,7 +69,7 @@ const Section2 = () => {
               </h3>
             </div>
             <p>
-              Streamline expenses with Oz Ove’s Business account for easy
+              Streamline expenses with Zify’s Business account for easy
               management.
             </p>
           </div>

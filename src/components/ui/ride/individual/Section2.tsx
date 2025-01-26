@@ -146,12 +146,13 @@ const Section2 = () => {
                   alt=""
                   width={40}
                   height={40}
-                  className="w-[40px] h-[40px] "
+                  className="w-[40px] h-[40px]  "
                 />
                 <h3 className="text-base lg:text-xl font-bold lg:ml-4 lg:mt-0 mt-2">
                   Route Optimization
                 </h3>
               </div>
+
               <p>Save time and fuel with the most efficient routes.</p>
             </div>
           </div>

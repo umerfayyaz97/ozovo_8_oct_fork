@@ -98,7 +98,7 @@ const PartyVan = () => (
   <div className="">
     <div className="flex lg:flex-row flex-col-reverse ">
       <div>
-        <h1 className="text-3xl font-bold px-4">Oz Party Van</h1>
+        <h1 className="text-3xl font-bold px-4">Zify Party Van</h1>
         <p className="p-4">
           Add a touch of fun to your ride! Our party vans come equipped with a
           premium sound system and vibrant lighting, perfect for starting the
@@ -149,7 +149,7 @@ const PremiumVan = () => (
   <div>
     <div className="flex lg:flex-row flex-col-reverse ">
       <div>
-        <h1 className="text-3xl font-bold px-4">Oz Elite Van</h1>
+        <h1 className="text-3xl font-bold px-4">Zify Elite Van</h1>
         <p className="p-4">
           Experience a touch of luxury with our Elite Vans. With spacious
           interiors, comfortable seating, and top-notch amenities, your journey

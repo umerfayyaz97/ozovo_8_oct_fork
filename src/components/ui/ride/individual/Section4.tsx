@@ -13,8 +13,8 @@ const Section4 = () => {
         Add-Ons
       </h2>
       <p className="text-center mb-12">
-        Choose Oz Ove For A Transportation Experience That Goes Above And
-        Beyond. Expect The Extraordinary.
+        Choose Zify For A Transportation Experience That Goes Above And Beyond.
+        Expect The Extraordinary.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-[#313A48] cursor-pointer p-6 text-center shadow-md">

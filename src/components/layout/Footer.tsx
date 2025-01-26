@@ -23,8 +23,8 @@ const Footer = () => {
         <div>
           <div className="mt-5 md:mt-0 flex flex-col lg:items-start items-start">
             <h5 className="font-bold mb-2">Get in touch</h5>
-            <p>Information: info@ozove.com.au</p>
-            <p>Media: Media@ozove.com.au</p>
+            <p>Information: info@zify.com.au</p>
+            <p>Media: Media@zify.com.au</p>
             <div className="flex space-x-2 mt-2">
               <Link
                 href="https://www.facebook.com/ozove.australia?mibextid=LQQJ4d"
@@ -173,7 +173,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container mx-auto text-center mt-10">
-        <p>OZ Ove © 2023 | Journeying Forward, Together.</p>
+        <p>Zify © 2023 | Journeying Forward, Together.</p>
       </div>
 
       {/* Google tag (gtag.js) */}

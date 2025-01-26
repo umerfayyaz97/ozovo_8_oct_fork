@@ -16,7 +16,7 @@ export default function Page() {
       {/* SEO Meta Tags */}
       <Head>
         <title>
-          Ozove - Simplified Ride Booking and Fleet Management in Australia
+          Zify - Simplified Ride Booking and Fleet Management in Australia
         </title>
         <meta
           name="description"

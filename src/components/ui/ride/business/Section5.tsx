@@ -39,7 +39,7 @@ export default function Section6() {
           </div>
           <div className="bg-slate cursor-pointer flex flex-col justify-center items-center text-center p-6  shadow-md">
             <h3 className="text-xl font-bold mb-2">Favourite Driver</h3>
-            <p className="text-sm px-12">Create your own fleet using OZ Ove</p>
+            <p className="text-sm px-12">Create your own fleet using Zify</p>
           </div>
         </div>
       </main>

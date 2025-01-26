@@ -10,7 +10,7 @@ const faqData: FAQItem[] = [
   {
     question: " How do I create an on-demand shuttle route for my business?",
     answer:
-      "Creating a custom shuttle route is simple with Oz Ove. Navigate to the 'Create Route' section in your business account dashboard. From there, you can input your desired start point, end point, and all stops in between. You can also set the frequency and duration of the route to match your specific needs.",
+      "Creating a custom shuttle route is simple with Zify. Navigate to the 'Create Route' section in your business account dashboard. From there, you can input your desired start point, end point, and all stops in between. You can also set the frequency and duration of the route to match your specific needs.",
   },
   {
     question: `${"Can I modify a shuttle route once it's been created?"}`,
@@ -40,7 +40,7 @@ const FAQ = () => {
         {faqData.map((item, index) => (
           <div
             key={index}
-            className="lg:border lg:rounded-lg p-4 lg:bg-white bg-faq lg:text-black text-white"
+            className="lg:border lg:rounded-lg p-4 lg:bg-white bg-zify lg:text-black text-white"
           >
             <button
               className="w-full text-left focus:outline-none"

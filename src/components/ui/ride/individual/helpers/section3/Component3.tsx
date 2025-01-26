@@ -43,7 +43,7 @@ const StandardVan = () => (
   <div>
     <div className="flex lg:flex-row flex-col-reverse ">
       <div>
-        <h1 className="text-3xl font-bold px-4">Oz Standard Van</h1>
+        <h1 className="text-3xl font-bold px-4">Zify Standard Van</h1>
         <p className="p-4">
           Roomy and comfortable, our standard vans offer seating for up to 10
           passengers.
@@ -91,7 +91,7 @@ const StandardVan = () => (
 
 const PartyVan = () => (
   <div>
-    <h1 className="text-xl font-bold">Oz Party Van</h1>
+    <h1 className="text-xl font-bold">Zify Party Van</h1>
     <p>
       Perfect for celebrations and events, our party vans come equipped with
       premium sound systems and lighting.
@@ -106,7 +106,7 @@ const PartyVan = () => (
 
 const PremiumVan = () => (
   <div>
-    <h1 className="text-xl font-bold">Oz Premium Van</h1>
+    <h1 className="text-xl font-bold">Zify Premium Van</h1>
     <p>
       Luxury and comfort, our premium vans offer the best features for a
       top-notch experience.

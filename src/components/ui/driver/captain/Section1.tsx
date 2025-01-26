@@ -7,7 +7,7 @@ const Section1 = () => {
   return (
     <div className="bg-zify text-white lg:mt-20 mt-16 lg:h-[440px] lg:relative">
       <Head>
-        <title>AzOve - Become a Driver</title>
+        <title>Zify - Become a Driver</title>
       </Head>
       <div className="flex lg:flex-row flex-col justify-between h-full">
         <div className="lg:w-2/5 flex flex-col justify-center items-start lg:px-20 p-8">
@@ -37,9 +37,9 @@ const Section1 = () => {
                 <Image
                   src="/driver/captain/section1/zifyblueform.png"
                   alt="Ozove"
-                  width={100}
+                  width={80}
                   height={100}
-                  className="h-[30px] w-[100px] lg:block hidden object-fill items-center justify-center ml-20 mb-4"
+                  className="h-[30px] w-[90px] lg:block hidden object-fill items-center justify-center ml-20 mb-4"
                 />
               </div>
               <h2 className="text-2xl px-8 p  b-2 font-bold text-black">

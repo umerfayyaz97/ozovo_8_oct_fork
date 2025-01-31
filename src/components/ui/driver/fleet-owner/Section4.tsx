@@ -17,7 +17,7 @@ export default function Section4() {
   return (
     <div className="bg-slate min-h-screen p-10">
       <main className="flex flex-col items-center">
-        <h1 className="text-3xl font-bold text-gray-900 mb-10">
+        <h1 className="text-3xl text-center sm:text-left sm:pl-6 font-bold  text-gray-900 mb-10">
           How To Set Up Your Fleet
         </h1>
 

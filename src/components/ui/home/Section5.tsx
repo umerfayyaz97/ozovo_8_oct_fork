@@ -44,7 +44,8 @@ const Section5 = () => {
                 src={tailoredIcon}
                 alt="Tailored To You"
                 // className=" lg:-mt-6 w-[60px] lg:h-60px] h-[60px] pt-2"
-                className="lg:w-[50px] lg:h-[50px] w-[70px] h-[70px] lg:-mt-4 lg:ml-26"
+                // className="lg:w-[50px] lg:h-[50px] w-[70px] h-[70px] lg:-mt-4 lg:ml-26"
+                className="lg:w-[60px]  xl:-mt-4 md:-mt-0  lg:h-[60px] w-[70px] h-[70px] lg:-mt-4 lg:ml-26"
                 width={50}
                 height={50}
               />
@@ -63,7 +64,7 @@ const Section5 = () => {
               <Image
                 src={check}
                 alt="Integrated Mobility Solutions"
-                className=" lg:w-[60px] lg:h-[55px] w-[70px] h-[70px]  lg:ml-24"
+                className=" lg:w-[60px] lg:h-[60px] w-[70px] h-[70px]  lg:ml-24"
                 width={50}
                 height={50}
               />

@@ -25,8 +25,8 @@ export default function Section8() {
           <span className="text-customYellow"> with Us</span>
         </p>
         <p className="text-[18px] text-gray-700 mb-6">
-          Embark on a rewarding journey as an Oz Ove driver, and become a part
-          of our mission to revolutionize transportation across Australia.{" "}
+          Embark on a rewarding journey as an Zify driver, and become a part of
+          our mission to revolutionize transportation across Australia.{" "}
         </p>
         <button className="bg-blue-800 text-white text-lg font-semibold py-2 px-6 rounded-lg hover:bg-yellow-500 hover:text-black transition-colors duration-300 w-[200px]">
           Become A Driver

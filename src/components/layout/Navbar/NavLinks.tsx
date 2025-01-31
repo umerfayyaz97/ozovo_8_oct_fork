@@ -60,7 +60,7 @@ const NavLinks = ({ setOpen }: any) => {
                                 className="hover:text-primary"
                                 onClick={handleLinkClick}
                               >
-                                <p className="relative z-10 px-6 pb-1 border-b-2 border-b-customYellow">
+                                <p className="relative z-10 px-6 pb-1 border-b-2 border-b-blue-900">
                                   {slink.name}
                                 </p>
 

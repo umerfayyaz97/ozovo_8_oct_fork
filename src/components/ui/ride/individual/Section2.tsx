@@ -1,5 +1,5 @@
 import Image from "next/image";
-import midImage from "@/../public/ride/individual/section2.png";
+import midImage from "@/../public/ride/individual/rideIndiviGirl.png";
 import logo1 from "@/../public/ride/individual/icons/section2/i1.png";
 import logo2 from "@/../public/ride/individual/icons/section2/i2.png";
 import logo3 from "@/../public/ride/individual/icons/section2/i3.png";
@@ -31,7 +31,7 @@ const Section2 = () => {
                 </h3>
               </div>
               <p className="text-sm lg:text-base">
-                Streamline expenses with Oz Ove’s Business account for easy
+                Streamline expenses with Zify’s Business account for easy
                 management.
               </p>
             </div>
@@ -69,7 +69,7 @@ const Section2 = () => {
               </h3>
             </div>
             <p>
-              Streamline expenses with Oz Ove’s Business account for easy
+              Streamline expenses with Zify’s Business account for easy
               management.
             </p>
           </div>

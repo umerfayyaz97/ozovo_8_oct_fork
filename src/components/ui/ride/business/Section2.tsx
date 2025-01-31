@@ -20,7 +20,7 @@ const Section2 = () => {
             <div className="bg-white text-black p-4 shadow-md h-[240px] lg:hidden flex flex-col">
               <div className="lg:flex items-center mb-2">
                 <Image
-                  src="/ride/business/one-stop-bill.png"
+                  src="/ride/business/oneStopBilling.svg"
                   alt=""
                   width={40}
                   height={40}

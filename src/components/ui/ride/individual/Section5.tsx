@@ -19,7 +19,7 @@ export default function Section6() {
           <h1 className="text-3xl md:text-4xl font-bold text-customYellow text-center">
             How it works
           </h1>
-          <p>
+          <p className="text-center sm:text-left sm:pl-6">
             Experience the Revolution of Zify&apos;s Unparalleled On-Demand
             Group Transportation
           </p>

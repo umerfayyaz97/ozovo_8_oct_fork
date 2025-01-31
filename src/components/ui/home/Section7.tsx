@@ -20,7 +20,7 @@ export default function Section7() {
           POTENTIAL
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mb-8">
-          Discover the Oz Ove Business Account advantage and transform your
+          Discover the Zify Business Account advantage and transform your
           company&apos;s transportation into a seamless, cost-effective
           experience. Enjoy the flexibility of tailored commuting solutions that
           adapt to your business needs, ensuring a convenient and hassle-free

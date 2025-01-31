@@ -75,7 +75,7 @@ const Section2 = () => {
                 alt="Instant Withdrawals"
                 width={100}
                 height={50}
-                className="mt-4 lg:mt-0"
+                className="mt-4 lg:mt-0 h-30 w-30"
               />
             </div>
             <div className="bg-customYellow lg:w-7/12 flex flex-col lg:flex-row items-center text-black p-6 rounded-lg shadow-lg ">
@@ -99,7 +99,7 @@ const Section2 = () => {
                 alt="Driver Network"
                 width={100}
                 height={40}
-                className="mt-2 lg:mt-0"
+                className="mt-2 lg:mt-0 "
               />
             </div>
           </div>

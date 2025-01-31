@@ -80,7 +80,7 @@ const Page1 = ({ setComponent }) => {
   const vehicles = {
     smallVan: {
       name: "Van",
-      image: "/vehicles/van.png",
+      image: "/vehicles/smallVanZify.png",
       passengerLimit: "7 Seater",
       averageCostPerPerson: "$10",
       minimumPassengers: 4,
@@ -91,7 +91,7 @@ const Page1 = ({ setComponent }) => {
     },
     largeVan: {
       name: "Mini Bus",
-      image: "/vehicles/2.png",
+      image: "/vehicles/largeVanZify.png",
       passengerLimit: "9 Seater",
       averageCostPerPerson: "$22",
       minimumPassengers: 6,
@@ -102,7 +102,7 @@ const Page1 = ({ setComponent }) => {
     },
     bus: {
       name: "Bus",
-      image: "/vehicles/coaster.png",
+      image: "/vehicles/busZify.png",
       passengerLimit: "30 Seater",
       averageCostPerPerson: "$35",
       minimumPassengers: 10,

@@ -32,8 +32,8 @@ const Section2 = () => {
                 src={p1}
                 alt="Maximize Your Earnings"
                 className="lg:ml-4 "
-                width={80}
-                height={80}
+                width={100}
+                height={100}
               />
             </div>
             <div className="bg-customYellow flex flex-row text-black p-6 rounded-lg shadow-lg h-[200px]">
@@ -50,8 +50,8 @@ const Section2 = () => {
                 src={p2}
                 alt="Embrace Entrepreneurship"
                 className="mt-4  lg:ml-4 "
-                width={80}
-                height={80}
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -77,8 +77,8 @@ const Section2 = () => {
                 src={p4}
                 alt="Enjoy Unparalleled Flexibility"
                 className="mt-4  lg:ml-4 "
-                width={80}
-                height={80}
+                width={100}
+                height={100}
               />
             </div>
             <div className="bg-zify flex flex-row text-white p-6 rounded-lg shadow-lg h-[200px]">
@@ -95,8 +95,8 @@ const Section2 = () => {
                 src={p5}
                 alt="Experience Swift Payouts"
                 className="mt-4  lg:ml-4 w-[80px] h-[130px]"
-                width={80}
-                height={80}
+                width={100}
+                height={100}
               />
             </div>
           </div>

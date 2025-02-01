@@ -117,11 +117,17 @@ const Section3: React.FC = () => {
           rows={4}
           required
         />
-        <button
-          className="bg-customYellow font-bold text-gray-900 py-2 px-4 rounded w-[300px] hover:bg-white hover:text-black  transition duration-300 ease-in-out"
+        {/* <button
+          className="bg-customYellow font-bold  text-gray-900 py-2 px-4 rounded w-[300px] hover:bg-white hover:text-black  transition duration-300 ease-in-out"
           type="submit"
         >
           Send Message
+        </button> */}
+        <button
+          className="bg-customYellow font-bold w-full text-gray-900 py-2 px-4 rounded hover:bg-white hover:text-black transition duration-300 ease-in-out"
+          type="submit"
+        >
+          Submit
         </button>
       </form>
     </div>

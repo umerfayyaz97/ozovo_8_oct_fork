@@ -455,6 +455,39 @@ const Page1 = ({ setComponent }) => {
                   {Object.keys(vehicles).map((type) => (
                     <button
                       key={type}
+                      className={`flex flex-col justify-center items-center w-1/3 h-[140px] p-2 rounded-lg ${
+                        vehicleType === type
+                          ? "bg-white border border-yellow-500"
+                          : "bg-gray-200 border border-gray-300"
+                      }`}
+                      onClick={() => handleVehicleSelection(type)}
+                    >
+                      <Image
+                        src={vehicles[type].image}
+                        alt={vehicles[type].name}
+                        height={90} // Increased image size
+                        width={90} // Increased image size
+                        layout="fixed"
+                        className="mt-2"
+                      />
+                      <p className="mt-2 text-sm text-black text-center">
+                        {vehicles[type].name}
+                      </p>
+                      <p className="text-gray-600 text-xs text-center">
+                        {vehicles[type].passengerLimit}
+                      </p>
+                      <p className="text-sm font-bold text-black text-center">
+                        <span className="text-green-500">From</span> $
+                        {vehicles[type].baseFare}
+                      </p>
+                    </button>
+                  ))}
+                </div>
+
+                {/* <div className="flex items-center space-x-2 mb-4">
+                  {Object.keys(vehicles).map((type) => (
+                    <button
+                      key={type}
                       className={`flex flex-col justify-center w-1/3 p-2 h-30 rounded-lg ${
                         vehicleType === type
                           ? "bg-white border border-yellow-500"
@@ -482,7 +515,7 @@ const Page1 = ({ setComponent }) => {
                       </p>
                     </button>
                   ))}
-                </div>
+                </div> */}
                 {vehicleType && (
                   <div className="w-full p-1 mt-2 text-black border border-yellow-500 rounded-md bg-yellow-500/20">
                     <p className="flex items-center justify-between font-bold text-md">
@@ -490,8 +523,8 @@ const Page1 = ({ setComponent }) => {
                       <Image
                         src={vehicleDetails.image}
                         alt={vehicleDetails.name}
-                        width={110}
-                        height={110}
+                        width={140}
+                        height={140}
                       />
                     </p>
                     <div className="text-black">
@@ -1142,7 +1175,7 @@ const Page1 = ({ setComponent }) => {
               {Object.keys(vehicles).map((type) => (
                 <button
                   key={type}
-                  className={`flex  flex-col justify-center w-1/3 p-2 h-30 rounded-lg ${
+                  className={`flex  flex-col justify-center items-center w-1/3 p-2 h-[140px] rounded-lg ${
                     vehicleType === type
                       ? "bg-white border border-yellow-500"
                       : "bg-gray-200 border border-gray-300"
@@ -1177,8 +1210,8 @@ const Page1 = ({ setComponent }) => {
                   <Image
                     src={vehicleDetails.image}
                     alt={vehicleDetails.name}
-                    width={110}
-                    height={110}
+                    width={140}
+                    height={140}
                   />
                 </p>
                 <div className="text-black">

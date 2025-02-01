@@ -105,7 +105,7 @@ const MediumBus = () => (
       <div>
         <h1 className="text-3xl font-bold px-4">Medium Bus</h1>
         <p className="p-4">
-          VZify Midi Bus - Striking a perfect balance between capacity and
+          Zify Midi Bus - Striking a perfect balance between capacity and
           comfort, our Midi Buses cater to larger groups, ensuring everyone
           arrives together and on time.
         </p>

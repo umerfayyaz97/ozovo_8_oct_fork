@@ -8,6 +8,9 @@ import "@fontsource/dm-sans/400-italic.css"; // Specify weight and style
 export const metadata: Metadata = {
   title: "Zify",
   description: "Reinventing Group Travel In Australia",
+  icons: {
+    icon: ["/favicon.ico?v=4"],
+  },
 };
 
 export default function RootLayout({
